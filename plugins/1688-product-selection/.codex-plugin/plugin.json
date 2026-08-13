@@ -1,0 +1,38 @@
+{
+  "name": "1688-product-selection",
+  "version": "1.0.0",
+  "description": "Guides Codex to use the Dianleida 1688 product-selection MCP tools for product search, rankings, category browsing, and sales analysis.",
+  "author": {
+    "name": "Dianleida",
+    "url": "https://www.dianleida.net"
+  },
+  "homepage": "https://www.dianleida.net/mcp",
+  "repository": "https://github.com/b18797245781-commits/1688-product-selection.git",
+  "keywords": [
+    "1688",
+    "product-selection",
+    "dianleida",
+    "mcp",
+    "ecommerce"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "1688 Product Selection",
+    "shortDescription": "Find, rank, and analyze 1688 products with Dianleida MCP guidance.",
+    "longDescription": "Adds a 1688 product-selection skill that helps Codex choose the right Dianleida MCP tool, build search parameters, browse categories, inspect rankings, analyze products, and present product results with images and links.",
+    "developerName": "Dianleida",
+    "category": "Business Operations",
+    "capabilities": [
+      "Search",
+      "Analysis",
+      "MCP"
+    ],
+    "websiteURL": "https://www.dianleida.net/mcp",
+    "defaultPrompt": [
+      "帮我找1688上最近一周热销的手机壳",
+      "分析这个1688商品最近30天卖得怎么样",
+      "浏览1688一级类目并推荐选品方向"
+    ],
+    "brandColor": "#0F766E"
+  }
+}
